@@ -2,8 +2,7 @@ package com.atchat.restaurants;
 
 import java.util.List;
 
-public interface RestaurantInterface {
-
+public interface Restaurant {
     public abstract List<Tag> getTagList();
     public abstract void setTagList(List<Tag> tagList);
     public abstract boolean addTag(Tag tag);
@@ -12,5 +11,4 @@ public interface RestaurantInterface {
     public abstract void setName(String name);
     public abstract String getPostalCode();
     public abstract void setPostalCode();
-
 }
