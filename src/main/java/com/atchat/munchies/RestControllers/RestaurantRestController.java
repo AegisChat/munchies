@@ -1,6 +1,6 @@
 package com.atchat.munchies.RestControllers;
 
-import com.atchat.restaurants.Restaurant;
+import com.atchat.restaurants.Store.Restaurant;
 import org.springframework.web.bind.annotation.*;
 
 //TODO: Figure out how to use AWS DynamoDB

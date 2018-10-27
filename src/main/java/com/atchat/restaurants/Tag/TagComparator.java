@@ -1,4 +1,4 @@
-package com.atchat.restaurants;
+package com.atchat.restaurants.Tag;
 
 import java.util.Comparator;
 

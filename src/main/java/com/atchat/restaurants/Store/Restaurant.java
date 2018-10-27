@@ -1,4 +1,6 @@
-package com.atchat.restaurants;
+package com.atchat.restaurants.Store;
+
+import com.atchat.restaurants.Tag.Tag;
 
 import java.util.List;
 

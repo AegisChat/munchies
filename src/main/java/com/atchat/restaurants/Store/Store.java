@@ -1,4 +1,4 @@
-package com.atchat.restaurants;
+package com.atchat.restaurants.Store;
 
 import java.util.UUID;
 

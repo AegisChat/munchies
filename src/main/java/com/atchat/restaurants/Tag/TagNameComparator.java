@@ -1,6 +1,4 @@
-package com.atchat.restaurants;
-
-import java.util.Comparator;
+package com.atchat.restaurants.Tag;
 
 public class TagNameComparator implements TagComparator {
     @Override
