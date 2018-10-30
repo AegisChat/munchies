@@ -37,14 +37,20 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>software.amazon.awssdk</groupId>
-            <artifactId>kinesis</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>software.amazon.awssdk</groupId>
-            <artifactId>dynamodb</artifactId>
-        </dependency>
+
+        <!--Amazon-->
+            <!--S3-->
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>s3</artifactId>
+                <version>LATEST</version>
+            </dependency>
+
+            <!--Kinesis-->
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>kinesis</artifactId>
+            </dependency>
     </dependencies>
 
     <dependencyManagement>
